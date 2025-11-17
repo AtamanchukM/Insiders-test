@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Swiper Styles */
+.tabs-swiper {
+  width: 100%;
+}
+
+.tabs-swiper .swiper-wrapper {
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+.tabs-swiper .swiper-slide {
+  pointer-events: auto;
+}
+
+/* Стилізація scrollbar для табів */
+.tabs-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.tabs-scrollbar::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.tabs-scrollbar::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 4px;
+}
+
+.tabs-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Приховування scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
